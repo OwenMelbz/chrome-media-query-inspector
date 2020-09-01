@@ -1,16 +1,16 @@
 {
-    "name": "Tailwind CSS Breakpoint Inspector",
+    "name": "Tailwind CSS Media Query Inspector",
     "version": "0.0.1",
     "manifest_version": 2,
-    "description": "Easily see which Tailwind breakpoint you are currently in without cluttering up your UI.",
-    "homepage_url": "https://duo.com/labs",
+    "description": "Easily see which breakpoint you are currently in without cluttering up your UI.",
+    "homepage_url": "https://github.com/OwenMelbz/chrome-media-query-inspector",
     "icons": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     },
     "browser_action": {
-      "default_title": "TW/BP",
+      "default_title": "MQL",
       "default_popup": "popup.html"
     },
     "default_locale": "en",

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind": "tailwindcss build -o src/styles/tailwind.css"
+    "tailwind": "tailwindcss build -o src/styles/tailwind.css",
+    "build": "NODE_ENV=production npm run tailwind && webpack"
   },
   "keywords": [],
   "author": "",
