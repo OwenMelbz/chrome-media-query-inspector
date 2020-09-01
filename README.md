@@ -1,4 +1,6 @@
-<p align="center"> ![Chrome Media Query Toolbar Inspector - An unofficial TailwindCSS companion app](https://raw.githubusercontent.com/OwenMelbz/chrome-media-query-inspector/master/marketing/readme.png)</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OwenMelbz/chrome-media-query-inspector/master/marketing/readme.png" alt="Chrome Media Query Toolbar Inspector - An unofficial TailwindCSS companion app">
+</p>
 
 Plenty of developers add their own little widget in to the webpages to help them identify which break point they are currently in.
 
