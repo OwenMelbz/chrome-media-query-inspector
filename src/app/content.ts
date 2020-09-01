@@ -29,6 +29,7 @@ const watch = (screen:Screen) => {
 
 const reset = () => {
     chrome.storage.sync.get(['enabled', 'screens'], function(result) {
+
         screens.filter(screen => screen.mql).forEach((screen:Screen) => {
             screen.mql.removeListener(handle)
         });

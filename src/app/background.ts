@@ -13,7 +13,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             }
             break;
         case 'CONFIG_UPDATED':
-            chrome.tabs.query({}, function(tabs) {
+            chrome.tabs.query({
+                currentWindow: true,
+                active: true
+            }, function(tabs) {
                 tabs.forEach(tab => {
                     chrome.tabs.sendMessage(tab.id, message);
                 })
