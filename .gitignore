@@ -3,3 +3,4 @@ dist/js/*
 node_modules/
 .idea/
 dist.pem
+dist.zip
