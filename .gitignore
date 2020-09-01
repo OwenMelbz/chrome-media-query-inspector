@@ -3,4 +3,5 @@ dist/js/*
 node_modules/
 .idea/
 dist.pem
-dist.zip
+*.zip
+web-ext-artifacts/*
