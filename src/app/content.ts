@@ -8,10 +8,13 @@ interface Screen {
     mql?: undefined | null | any,
 }
 
-const announce = screen => {
+const announce = ({ label, value }) => {
     chrome.runtime.sendMessage({
         type: 'SCREEN_CHANGED',
-        data: screen,
+        data: {
+            label,
+            value,
+        },
     });
 }
 
