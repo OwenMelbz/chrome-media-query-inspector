@@ -1,6 +1,6 @@
 {
     "name": "Tailwind CSS Media Query Inspector",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 2,
     "description": "Easily see which breakpoint you are currently in without cluttering up your UI.",
     "homepage_url": "https://github.com/OwenMelbz/chrome-media-query-inspector",
@@ -37,7 +37,7 @@
     ],
     "applications": {
       "gecko": {
-        "id": "mediaqueryinspector@owenmelbourne.com"
+        "id": "{730920a1-c691-438c-b0c6-a582a8b72922}"
       }
     }
   }
